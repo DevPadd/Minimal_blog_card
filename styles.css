@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap");
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 500px;
+
+    margin: 164px auto;
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.2);
+}
+.tags {
+    margin: 1.5rem 0;
+}
+
+.tags span {
+    background-color: #e6d6fc;
+    color: #883ae1;
+    font-family: "Sora";
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-weight: 600;
+}
+.text-container {
+    font-family: "Sora";
+}
+
+.text-container h2 {
+    margin-bottom: 1rem;
+    color: #20293a;
+}
+
+.text-container p {
+    font-size: 1.2em;
+    color: #6c727f;
+}
+.img-container img {
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.author {
+    margin: 1rem 0.8rem 0 0;
+    width: 100%;
+}
+.author h2 {
+    color: #6c727f;
+    font-family: "Sora";
+    font-weight: 600;
+    font-size: 0.8em;
+}
