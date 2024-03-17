@@ -8,10 +8,10 @@ body {
 }
 
 .card {
-    width: 500px;
+    max-width: 400px;
 
     margin: 164px auto;
-    padding: 2rem 1.5rem;
+
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -23,18 +23,21 @@ body {
 .tags {
     margin: 1.5rem 0;
 }
-
+.card-content {
+    padding: 2rem 1.5rem;
+}
 .tags span {
     background-color: #e6d6fc;
     color: #883ae1;
     font-family: "Sora";
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: small;
 }
 .text-container {
     font-family: "Sora";
@@ -43,14 +46,17 @@ body {
 .text-container h2 {
     margin-bottom: 1rem;
     color: #20293a;
+    font-size: 1.2rem;
 }
 
 .text-container p {
-    font-size: 1.2em;
+    font-size: 1rem;
+    font-weight: 200;
     color: #6c727f;
 }
 .img-container img {
     width: 100%;
+    object-fit: cover;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -59,12 +65,15 @@ body {
 }
 
 .author {
-    margin: 1rem 0.8rem 0 0;
     width: 100%;
+    padding: 1.5rem 1.5rem;
+}
+hr {
+    opacity: 0.2;
 }
 .author h2 {
     color: #6c727f;
     font-family: "Sora";
-    font-weight: 600;
+    font-weight: normal;
     font-size: 0.8em;
 }
